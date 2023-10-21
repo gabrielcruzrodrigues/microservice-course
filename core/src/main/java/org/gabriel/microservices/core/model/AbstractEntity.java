@@ -1,4 +1,4 @@
-package com.gabriel.microservices.model;
+package org.gabriel.microservices.core.model;
 
 import java.io.Serializable;
 

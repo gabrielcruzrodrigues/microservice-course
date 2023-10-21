@@ -1,6 +1,6 @@
-package com.gabriel.microservices.repository;
+package org.gabriel.microservices.core.repository;
 
-import com.gabriel.microservices.model.Course;
+import org.gabriel.microservices.core.model.Course;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 

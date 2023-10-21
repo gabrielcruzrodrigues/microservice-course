@@ -1,4 +1,4 @@
-package com.gabriel.microservices.model;
+package org.gabriel.microservices.core.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;

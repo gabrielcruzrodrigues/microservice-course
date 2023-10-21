@@ -1,12 +1,11 @@
 package com.gabriel.microservices.endpoint.service;
 
-import com.gabriel.microservices.model.Course;
-import com.gabriel.microservices.repository.CourseRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.gabriel.microservices.core.model.Course;
+import org.gabriel.microservices.core.repository.CourseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 @Service
