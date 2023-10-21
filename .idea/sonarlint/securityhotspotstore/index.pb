@@ -15,3 +15,9 @@ Rcore/src/main/java/org/gabriel/microservices/core/repository/CourseRepository.j
 Rcourse/src/main/java/com/gabriel/microservices/endpoint/service/CourseService.java,9\8\98061c060d9c9e941bda26ff0b52334b85c24716
 ˆ
 Xcourse/src/main/java/com/gabriel/microservices/endpoint/controller/CourseController.java,f\6\f6724ea7b1baa5226df0a761a75553e0362f2b15
+D
+discovery/.gitignore,b\1\b180da22f818f9d49f7e2f2ec0a63977f2f02a16
+„
+Tdiscovery/src/main/java/com/gabriel/microservice/discovery/DiscoveryApplication.java,3\c\3cdb3b479cb49994e4b9ff749d1c6d048096963d
+A
+discovery/pom.xml,a\c\ac3e1555725512e9cd39c39120cd768bda4aa7b4
