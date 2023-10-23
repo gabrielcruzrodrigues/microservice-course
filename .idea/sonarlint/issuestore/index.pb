@@ -37,3 +37,5 @@ Sgateway/src/test/java/com/gabriel/microservice/gateway/GatewayApplicationTests.
 gateway/mvnw.cmd,2\b\2b83d90c1fa7d29755ba2aa43a61215a9bcc60c7
 ?
 gateway/pom.xml,4\b\4b316bc60d1cfae51045f6fc8e58a8ae31f03ff3
+‰
+Ydiscovery/src/test/java/com/gabriel/microservice/discovery/DiscoveryApplicationTests.java,9\7\978a353470a9cefa69f5c357a70e426809365ca8

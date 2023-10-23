@@ -37,3 +37,5 @@ B
 gateway/.gitignore,a\d\ad2d9a57485c616eeb1387a613bcc79dcfefec59
 <
 gateway/mvnw,e\5\e5a3d5450becc8a5b6bd995f01338866048aaf73
+‰
+Ydiscovery/src/test/java/com/gabriel/microservice/discovery/DiscoveryApplicationTests.java,9\7\978a353470a9cefa69f5c357a70e426809365ca8
