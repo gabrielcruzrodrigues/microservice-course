@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.gabriel</groupId>
-		<artifactId>microservices</artifactId>
-		<version>1.0-SNAPSHOT</version>
-		<relativePath>../</relativePath> <!-- lookup parent from repository -->
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.0.0</version>
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<artifactId>discovery</artifactId>
@@ -25,7 +25,6 @@
 			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 			<version>4.0.3</version>
 		</dependency>
-
 		<!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
 		<dependency>
 			<groupId>javax.xml.bind</groupId>
@@ -44,12 +43,17 @@
 			<artifactId>jaxb-runtime</artifactId>
 			<version>4.0.4</version>
 		</dependency>
-
 		<dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot</artifactId>
-        </dependency>
-    </dependencies>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<finalName>discovery</finalName>
