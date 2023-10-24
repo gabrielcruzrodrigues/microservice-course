@@ -1,11 +1,9 @@
+server:
+  port: 8080
+
 spring:
   application:
     name: gateway
-
-server:
-  port: 8080
-  servlet:
-    context-path: /gateway
 
 eureka:
   instance:
@@ -16,5 +14,3 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
 
-zuul:
-  sensitive-headers: Cookie
